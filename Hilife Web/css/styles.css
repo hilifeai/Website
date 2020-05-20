@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*---------NAVBAR---------*/
+.navbar{
+    
+    
+    padding: 0 !important;
+    position: fixed;
+    
+}
+/*---------BOX---------*/
+#box{
+    background-color: #66BFBF;
+    color: #fff;
+    padding-top: 5%;
+}
+.title{
+    margin-top: 50px;
+    font-family: "Montserrat-Bold";
+    font-size: 3.5rem;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.img-fluid{
+    border-radius: 3%;
+    width: 70%;
+    opacity:0.8;
+    margin-bottom: 50px;
+    box-shadow: 5px aliceblue;
+    
+}
+/*---------SERVICE---------*/
+#service{
+    padding: 80px;
+}
+.service-img{
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.services{
+    text-align: center;
+}
+.header{
+    padding: 10px;
+    padding-bottom: 5px;
+    color: #1CB5E0;
+    font-weight: 100px;
+    margin-top: 40px;
+}
+.p{
+    color: #1CB5E0;
+}
+
+/*---------CARD---------*/
+#Card{
+    margin: 30px 30px;
+   
+    
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+/*---------TOPICS---------*/
+#Topics{
+    margin: 0;
+    padding: 30px 20px;
+    text-align: center;
+}
+.Topics-img{
+    padding: 30px 30px;
+    width: 100%;
+}
+/*---------ABOUT---------*/
+#About{
+    margin-top: 50px;
+    background-color:#EAF6F6;
+    padding: 100px;
+    color: #66BFBF;
+    text-align: center;
+}
+/*---------FOOTER---------*/
+#Footer{
+   background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.segment-one p{
+    color: #EAF6F6;
+    line-height: 30px;
+}
+.segment-two  h2{
+    font-family: 'Montserrat-bold', sans-serif;
+    color: #EAF6F6;
+    margin-bottom: 15px;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+.segment-three h2{
+    color:#EAF6F6 ;
+    font-family: 'Montserrat-bold', sans-serif;
+    text-transform: uppercase;
+}
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.segment-two ul li{
+    line-height: 30px;
+}
+.segment-two ul li a{
+    color:#EAF6F6 ;
+    text-decoration: none;
+}
+.segment-three ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.segment-three ul li{
+    line-height: 30px;
+    color:#EAF6F6;
+}
+.segment-three li a{
+    color:#EAF6F6 ;
+    text-decoration: none;
+}
+.segment-three  li i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(21, 151, 226) ;
+    padding: 10px 12px;
+}
+.bottom-footer{
+    color:#EAF6F6 ;
+    line-height: 75px;
+    background:#66BFBF;
+
+}

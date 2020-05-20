@@ -1,0 +1,210 @@
+/*---------Course Page---------*/
+.Course{
+    background:#EAF6F6 ;
+    padding: 20px;   
+    color: darkgrey; 
+
+}
+.big-text{
+    font-size: 52px;
+    margin: 20px 0;
+    color: darkorange;
+}
+.Course-img{
+    border-radius: 5%;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.Course a{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+a.btn-first{
+    background-color: darkorange;
+    color: #fff;
+}
+a.btn-second{
+    background: transparent;
+    width: 250px;
+    border: 1px solid darkorange;
+}
+.Course .btn:hover{
+    background: darkorange;
+    border: none;
+    color: #fff;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+}
+
+/*---------Tab Page---------*/
+.hero{
+    width: 80%;
+    height: 1050px;
+    position: relative;
+    margin: 0px auto;
+    padding: 0px 10px;
+    border: 1px solid transparent ;
+    box-shadow: 10px 10px 10px 10px #EAF6F6;
+    overflow: auto;
+}
+#myTab{
+    background: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: 100px;
+}
+#home-tab{
+    border: none;
+    outline: none;
+    text-transform: none;
+    color: rgb(20, 220, 187);
+    
+}
+#profile-tab{
+    border: none;
+    outline: none;
+    text-transform: none;
+    color: rgb(20, 220, 187);
+    
+}
+#home-tab:hover{
+    border-bottom: 2px solid tomato;
+}
+.active  #home-tab{
+    border-bottom-color: 2px solid tomato;
+}
+
+#profile-tab:hover{
+    border-bottom: 2px solid tomato;
+}
+.cars button{
+    width: 90%;
+    margin: 10px 30px;
+    height: 50px;
+    background: transparent;
+   border-color: darkgray;
+    border-width:  1px  1px 1px 1px;
+   text-align: left;
+   font-size: 20px;
+   font-family:'Montserrat-bold', sans-serif ;
+}
+.cars button:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+.pro{
+    margin: 30px 20px;
+    margin-top: 50px;
+}
+.pro h2{
+    color: teal;
+
+}
+.pro h5{
+    color: teal;
+}
+.pro p{
+    color: darkgray;
+}
+.pro img{
+    margin-top: -50px;
+}
+.pro i{
+    font-size: 26px;
+     
+}
+.pro .card{
+    border-radius: 0;
+    box-shadow: 5px 5px 15px teal;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+.certificate{
+    margin: 50px;
+    height: 100px;
+    text-align: center;
+    
+}
+.certificate img{
+    width: 400px;
+}
+  
+
+/*---------ABOUT---------*/
+#About{
+    margin-top: 50px;
+    background-color:#EAF6F6;
+    padding: 100px;
+    color: #66BFBF;
+    text-align: center;
+}
+/*---------FOOTER---------*/
+#Footer{
+   background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.segment-one p{
+    color: #EAF6F6;
+    line-height: 30px;
+}
+.segment-two  h2{
+    font-family: 'Montserrat-bold', sans-serif;
+    color: #EAF6F6;
+    margin-bottom: 15px;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+.segment-three h2{
+    color:#EAF6F6 ;
+    font-family: 'Montserrat-bold', sans-serif;
+    text-transform: uppercase;
+}
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.segment-two ul li{
+    line-height: 30px;
+}
+.segment-two ul li a{
+    color:#EAF6F6 ;
+    text-decoration: none;
+}
+.segment-three ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.segment-three ul li{
+    line-height: 30px;
+    color:#EAF6F6;
+}
+.segment-three li a{
+    color:#EAF6F6 ;
+    text-decoration: none;
+}
+.segment-three  li i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(21, 151, 226) ;
+    padding: 10px 12px;
+}
+.bottom-footer{
+    color:#EAF6F6 ;
+    line-height: 75px;
+    background:#66BFBF;
+
+}
