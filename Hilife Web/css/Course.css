@@ -83,7 +83,7 @@ a.btn-second{
 #profile-tab:hover{
     border-bottom: 2px solid tomato;
 }
-.cars button{
+.pane button{
     width: 90%;
     margin: 20px 30px;
     height: 50px;
@@ -94,7 +94,7 @@ a.btn-second{
    font-size: 20px;
    font-family:'Montserrat-bold', sans-serif ;
 }
-.cars button:after {
+.pane button:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: white;
